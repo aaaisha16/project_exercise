@@ -19,4 +19,14 @@ class Practice:
         self.age = age 
         print(f"{self.name} is {self.age} years old!")
         
+    def enrollment(self):
+        """ Determines if a parent/guardian signature is required.
+        
+        Side effects:
+            Prints and notifies user about required signatures.
+        """
+        if self.age < 18:
+            print("Parent and student signatures are required.")
+        else:
+            print("Student signature required.")
     
