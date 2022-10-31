@@ -6,7 +6,7 @@ class Practice:
     
     """
     
-    def information(self, name):
+    def __init__(self, name, age):
         """ This includes the personal information of the student such as their 
         name. 
         
@@ -15,3 +15,8 @@ class Practice:
         """
         self.name = name 
         print(f"{self.name} just started attending UMD")
+        
+        self.age = age 
+        print(f"{self.name} is {self.age} years old!")
+        
+    
