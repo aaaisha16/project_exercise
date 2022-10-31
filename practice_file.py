@@ -30,3 +30,9 @@ class Practice:
         else:
             print("Student signature required.")
     
+    def school(self):
+        """Where each person goes to school
+        Side effects:
+            prints for each student name
+        """
+        print(f"{self.name} goes to UMD")    
