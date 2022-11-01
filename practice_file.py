@@ -54,3 +54,11 @@ class Practice:
             year = 0 
             
         print(f"{self.name} will graduate in {years} years!")
+        
+    def student_ID(self, Student_ID):
+        """Students UMD student ID number
+        Side Effects:
+            Prints student ID for a student
+        """
+        student_ID = "117220896"
+        print(f"{self.student_ID} is {self.name} student ID number")
