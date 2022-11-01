@@ -36,3 +36,21 @@ class Practice:
             prints for each student name
         """
         print(f"{self.name} goes to UMD")    
+        
+    def grad_year(self):
+        """Determines in how many years a student will graduate
+        Side Effects: 
+            Determines years til graduation based on age and prints out 
+        """
+        if self.age == 18: 
+            years = 4 
+        elif self.age == 19:
+            years = 3 
+        elif self.age == 20:
+            years = 2
+        elif self.age == 21:
+            years = 1 
+        else: 
+            year = 0 
+            
+        print(f"{self.name} will graduation in {years} years!")
