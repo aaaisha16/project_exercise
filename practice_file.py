@@ -53,4 +53,4 @@ class Practice:
         else: 
             year = 0 
             
-        print(f"{self.name} will graduation in {years} years!")
+        print(f"{self.name} will graduate in {years} years!")
